@@ -260,6 +260,44 @@ body{
         row-gap: 30px;
     }
 
+    .skill > article{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;
+    }
+
+    .skill aside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .skill aside > div{
+        width: 100%;
+    }
+
+    .skill ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .skill li{
+        display: flex;
+        background-color: lightgray;
+        justify-content: center;
+    }
+
+    .skill p{
+        padding: 2%;
+        text-align: center;
+        background-color: var(--defaultColor);
+        color: white;
+        width: 80%;
+    }
+
 
     .language > article{
         display: flex;
@@ -434,6 +472,10 @@ body{
 
         }
 
+        .skill p{
+            font-size: 20px;
+        }
+
         .language p{
             font-size: 20px;
         }
@@ -580,6 +622,12 @@ body{
             .edu > article{
                 flex-direction: row;
                 justify-content: space-around;
+            }
+
+            .skill > article{
+                flex-direction: row;
+                align-items: flex-start;
+                column-gap: 50px;
             }
 
             .language > article{
